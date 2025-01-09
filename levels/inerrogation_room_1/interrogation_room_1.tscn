@@ -1,0 +1,20 @@
+[gd_scene load_steps=3 format=3 uid="uid://c3ew8rn08atsk"]
+
+[ext_resource type="Texture2D" uid="uid://icahp5bud2j5" path="res://assets/images/ui/DialogueBar.png" id="1_fbuw8"]
+[ext_resource type="Script" path="res://levels/inerrogation_room_1/interrogation_room_1.gd" id="1_lydpb"]
+
+[node name="InterrogationRoom1" type="Node2D"]
+script = ExtResource("1_lydpb")
+
+[node name="LevelMenu" type="CanvasLayer" parent="."]
+
+[node name="TextureRect" type="TextureRect" parent="LevelMenu"]
+anchors_preset = 12
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = -256.0
+grow_horizontal = 2
+grow_vertical = 0
+texture = ExtResource("1_fbuw8")
+metadata/_edit_use_anchors_ = true

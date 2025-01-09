@@ -1,0 +1,7 @@
+[gd_scene load_steps=3 format=3 uid="uid://ddgnxgti0273h"]
+
+[ext_resource type="PackedScene" uid="uid://c3ew8rn08atsk" path="res://levels/inerrogation_room_1/interrogation_room_1.tscn" id="1_ieyqp"]
+[ext_resource type="Script" path="res://levels/interrogation_room_2/interrogation_room_2.gd" id="2_a7jgf"]
+
+[node name="InterrogationRoom2" instance=ExtResource("1_ieyqp")]
+script = ExtResource("2_a7jgf")

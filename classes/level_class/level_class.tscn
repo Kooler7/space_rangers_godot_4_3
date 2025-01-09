@@ -1,0 +1,19 @@
+[gd_scene load_steps=3 format=3 uid="uid://cd03g3vu7c26i"]
+
+[ext_resource type="Script" path="res://classes/level_class/level_class.gd" id="1_8b85k"]
+[ext_resource type="Texture2D" uid="uid://icahp5bud2j5" path="res://assets/images/ui/DialogueBar.png" id="2_e074l"]
+
+[node name="LevelClass" type="Node2D"]
+script = ExtResource("1_8b85k")
+
+[node name="LevelMenu" type="CanvasLayer" parent="."]
+
+[node name="TextureRect" type="TextureRect" parent="LevelMenu"]
+anchors_preset = 12
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = -256.0
+grow_horizontal = 2
+grow_vertical = 0
+texture = ExtResource("2_e074l")
